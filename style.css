@@ -399,7 +399,6 @@ a {
   text-align: left;
   padding-left: 12px;
 }
-
 .baner-mini-text {
   font-size: 40px;
   line-height: 1.2;
@@ -407,7 +406,6 @@ a {
   letter-spacing: 0.025em;
   color: #222222;
 }
-
 .red-word {
   font-size: 40px;
   color: #f16d7f;
@@ -464,6 +462,7 @@ a:hover .box-img {
   color: #222222;
 }
 .product-heading {
+
   margin-top: 100px;
   text-align: center;
 }
@@ -474,6 +473,7 @@ a:hover .box-img {
   color: #9f9f9f;
   margin-top: 16px;
 }
+
 .card-box {
   margin-top: 60px;
   margin-bottom: 58px;
@@ -846,3 +846,4 @@ a:hover .box-img {
   display: flex;
   margin-bottom: 29px;
 }
+
