@@ -64,74 +64,73 @@
                 </form>
               </div>
             </div>
-            <div class="header-right">
-              <div class="live-cart">
-                <img src="img/cart.png" alt="cart" />
-                <div class="cart-box">
-                  <div class="cart-block">
-                    <div class="cart-item">
-                      <div class="cart-photo">
-                        <a href="#"
-                          ><img
-                            class="cart-foto-img"
-                            src="img/greentop.png"
-                            alt="photo"
-                        /></a>
+            <nav>
+              <div class="header-right">
+                <div class="live-cart">
+                  <img src="img/cart.png" alt="cart" />
+                  <div class="cart-box">
+                    <div class="cart-block">
+                      <div class="cart-item">
+                        <div class="cart-photo">
+                          <a href="product.html"
+                            ><img
+                              class="cart-foto-img"
+                              src="img/greentop.png"
+                              alt="photo"
+                          /></a>
+                        </div>
+                        <div class="cart-photo-price">
+                          <a href="product.html">
+                            <p class="rebox">Rebox Zane</p>
+                            <div class="star">
+                              <img src="img/star.png" alt="star" />
+                            </div>
+                            <p class="price-cart">1 x $250</p></a
+                          >
+                        </div>
+                        <button type="reset" class="button-reset">
+                          <img src="img/reset.png" alt="reset" />
+                        </button>
                       </div>
-                      <div class="cart-photo-price">
-                        <a href="product.html">
-                          <p class="rebox">Rebox Zane</p>
-                          <div class="star">
-                            <img src="img/star.png" alt="star" />
-                          </div>
-                          <p class="price-cart">1 x $250</p></a
-                        >
+                      <div class="cart-item">
+                        <div class="cart-photo">
+                          <a href="product.html"
+                            ><img src="img/whitetop.png" alt="photo"
+                          /></a>
+                        </div>
+                        <div class="cart-photo-price">
+                          <a href="product.html">
+                            <p class="rebox">Rebox Zane</p>
+                            <div class="star">
+                              <img src="img/star.png" alt="star" />
+                            </div>
+                            <p class="price-cart">1 x $250</p></a
+                          >
+                        </div>
+                        <button type="reset" class="button-reset">
+                          <img src="img/reset.png" alt="reset" />
+                        </button>
                       </div>
-                      <button type="reset" class="button-reset">
-                        <img src="img/reset.png" alt="reset" />
-                      </button>
                     </div>
-                    <div class="cart-item">
-                      <div class="cart-photo">
-                        <a href="product.html"
-                          ><img src="img/whitetop.png" alt="photo"
-                        /></a>
-                      </div>
-                      <div class="cart-photo-price">
-                        <a href="product.html">
-                          <p class="rebox">Rebox Zane</p>
-                          <div class="star">
-                            <img src="img/star.png" alt="star" />
-                          </div>
-                          <p class="price-cart">1 x $250</p></a
-                        >
-                      </div>
-                      <button type="reset" class="button-reset">
-                        <img src="img/reset.png" alt="reset" />
-                      </button>
+                    <div class="total-price">
+                      <p class="total">TOTAL</p>
+                      <p class="total">$500.00</p>
                     </div>
-                  </div>
-                  <div class="total-price">
-                    <p class="total">TOTAL</p>
-                    <p class="total">$500.00</p>
-                  </div>
-                  <div class="button-cart">
-                    <a class="cart-b-color" href="product.html">Checkout</a>
-                  </div>
-                  <div class="button-cart">
-                    <a class="cart-b-color" href="cart.html">Go To Cart</a>
+                    <div class="button-cart">
+                      <a class="cart-b-color" href="product.html">Checkout</a>
+                    </div>
+                    <div class="button-cart">
+                      <a class="cart-b-color" href="cart.html">Go To Cart</a>
+                    </div>
                   </div>
                 </div>
+                <div class="header__button">
+                  <a href="registration.html" class="button">My Account</a>
+                </div>
               </div>
-              <div class="header__button">
-                <a href="registration.html" class="button"
-                  >My Account</a
-                >
-              </div>
-            </div>
+            </nav>
           </div>
         </div>
-
         <nav class="navigation">
           <div class="container">
             <ul class="menu">
@@ -371,7 +370,7 @@
           oninput="result.value=(range.value)"
         >
           <div class="filter-box">
-            <div class="filt">
+            <nav class="filt">
               <details class="filter-box__item">
                 <summary class="filt-sum">
                   FILTER <img src="img/filter.svg" alt="filter" />
@@ -426,7 +425,7 @@
                   </div>
                 </details>
               </details>
-            </div>
+            </nav>
             <div class="catalog-form-block">
               <div class="catalog-form">
                 <fieldset class="checkb filt">
@@ -504,7 +503,7 @@
                   <legend class="filthead">PRICE</legend>
                   <label for="range">
                     <input
-                      class=" slider"
+                      class="slider"
                       type="range"
                       value="50"
                       id="range"
@@ -554,7 +553,7 @@
             </div>
           </div>
         </form>
-        <div class="section">
+        <section class="section-item">
           <div class="card-box box__catalog">
             <div class="card">
               <a class="item-link" href="product.html">
@@ -766,71 +765,62 @@
           </div>
           <nav>
             <div class="catalog-pagin">
-              <div class="pagination">
-                <a href="#"><i class="fa-solid fa-chevron-left"></i></a>
-                <a class="active" href="#">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">5</a>
-                <a href="#">6</a>
-                <a href="#">7</a>
-                <a href="#">8</a>
-                <a href="#">9</a>
-                <a href="#">10</a>
-                <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
-              </div>
+              <ul class="pagination">
+                <li><a href="#"><i class="fa-solid fa-chevron-left"></i></a></li>
+                <li><a class="active" href="catalog.html">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#">10</a></li>
+                <li><a href="#"><i class="fa-solid fa-chevron-right"></i></a></li>
+              </ul>
               <div class="item__button">
-                <a class="button" href="catalog.html"
-                  >View All</a
-                >
+                <a class="button" href="catalog.html">View All</a>
               </div>
             </div>
           </nav>
-        </div>
+        </section>
       </div>
     </div>
 
-    <div class="attraction attraction-small">
-      <div class="container att_small_box">
-        <div class="ab">
+    <section class="attraction attraction-small">
+      <div class="container att-small-box">
+        <article class="att-small-box__abox">
           <div class="delivery-cat"><img src="img/car.png" alt="photo" /></div>
-          <article class="attraction-info-cat">
-            <p class="attraction-text-cat">Free Delivery</p>
-            <p class="attraction-mini-text-cat">
-              Worldwide delivery on all. Authorit tively morph next-generation
-              innov tion with extensive models.
-            </p>
-          </article>
-        </div>
-        <div class="ab">
-          <div class="delivery-cat">
-            <img src="img/procent.png" alt="photo" />
-          </div>
-          <article class="attraction-info-cat">
-            <p class="attraction-text-cat">Sales & discounts</p>
-            <p class="attraction-mini-text-cat">
-              Worldwide delivery on all. Authorit tively morph next-generation
-              innov tion with extensive models.
-            </p>
-          </article>
-        </div>
-        <div class="ab">
-          <div class="delivery-cat">
-            <img src="img/crown.png" alt="photo" />
-          </div>
-          <article class="attraction-info-cat">
-            <p class="attraction-text-cat">Quality assurance</p>
-            <p class="attraction-mini-text-cat">
-              Worldwide delivery on all. Authorit tively morph next-generation
-              innov tion with extensive models.
-            </p>
-          </article>
-        </div>
+
+          <p class="attraction-text-cat">Free Delivery</p>
+          <p class="attraction-mini-text-cat">
+            Worldwide delivery on all. Authorit tively morph next-generation
+            innov tion with extensive models.
+          </p>
+        </article>
+        <article class="att-small-box__abox">
+          <div class="delivery-cat"><img src="img/procent.png" alt="photo" /></div>
+
+          <p class="attraction-text-cat">Free Delivery</p>
+          <p class="attraction-mini-text-cat">
+            Worldwide delivery on all. Authorit tively morph next-generation
+            innov tion with extensive models.
+          </p>
+        </article>
+        <article class="att-small-box__abox">
+          <div class="delivery-cat"><img src="img/crown.png" alt="photo" /></div>
+
+          <p class="attraction-text-cat">Free Delivery</p>
+          <p class="attraction-mini-text-cat">
+            Worldwide delivery on all. Authorit tively morph next-generation
+            innov tion with extensive models.
+          </p>
+        </article>
       </div>
-    </div>
-    <div class="footer">
-      <div class="subcribe">
+    </section>
+    <footer class="footer">
+      <section class="subcribe">
         <div class="figura-banner">
           <div class="container figura-block">
             <figure class="figura-girl">
@@ -868,12 +858,17 @@
                   type="email"
                   placeholder="Enter Your Email"
                 />
-                <button class="button form__button form__button_radius" type="submit">Subscribe</button>
+                <button
+                  class="button form__button form__button_radius"
+                  type="submit"
+                >
+                  Subscribe
+                </button>
               </div>
             </form>
           </div>
         </div>
-      </div>
+      </section>
       <div class="container footer-block">
         <div class="left-footer">
           <div class="footer-logo">
@@ -901,36 +896,34 @@
             </article>
           </div>
         </div>
-        <div class="right-footer">
-          <nav class="footer-info">
-            <ul class="footer-info-link">
-              <li class="footer-link-red">
-                <p class="red-footer-word">COMPANY</p>
-                <a href="#" class="right-footer-link">Home</a>
-                <a href="#" class="right-footer-link">Shop</a>
-                <a href="#" class="right-footer-link">About</a>
-                <a href="#" class="right-footer-link">How It Works</a>
-                <a href="#" class="right-footer-link">Contacts</a>
-              </li>
-              <li class="footer-link-red">
-                <p class="red-footer-word">INFORMATION</p>
-                <a href="#" class="right-footer-link">Tearms & Condition</a>
-                <a href="#" class="right-footer-link">Privacy Policy</a>
-                <a href="#" class="right-footer-link">How to Buy</a>
-                <a href="#" class="right-footer-link">How to Sell</a>
-                <a href="#" class="right-footer-link">Promotion</a>
-              </li>
-              <li class="footer-link-red">
-                <p class="red-footer-word">SHOP CATEGORY</p>
-                <a href="#" class="right-footer-link">Men</a>
-                <a href="#" class="right-footer-link">Women</a>
-                <a href="#" class="right-footer-link">Child</a>
-                <a href="#" class="right-footer-link">Apparel</a>
-                <a href="#" class="right-footer-link">Brows All</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <nav class="right-footer footer-info">
+          <ul class="footer-info__link">
+            <li class="footer-info__link_red">
+              <p class="red-footer-word">COMPANY</p>
+              <a href="#" class="right-footer-link">Home</a>
+              <a href="#" class="right-footer-link">Shop</a>
+              <a href="#" class="right-footer-link">About</a>
+              <a href="#" class="right-footer-link">How It Works</a>
+              <a href="#" class="right-footer-link">Contacts</a>
+            </li>
+            <li class="footer-info__link_red">
+              <p class="red-footer-word">INFORMATION</p>
+              <a href="#" class="right-footer-link">Tearms & Condition</a>
+              <a href="#" class="right-footer-link">Privacy Policy</a>
+              <a href="#" class="right-footer-link">How to Buy</a>
+              <a href="#" class="right-footer-link">How to Sell</a>
+              <a href="#" class="right-footer-link">Promotion</a>
+            </li>
+            <li class="footer-info__link_red">
+              <p class="red-footer-word">SHOP CATEGORY</p>
+              <a href="#" class="right-footer-link">Men</a>
+              <a href="#" class="right-footer-link">Women</a>
+              <a href="#" class="right-footer-link">Child</a>
+              <a href="#" class="right-footer-link">Apparel</a>
+              <a href="#" class="right-footer-link">Brows All</a>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="footer-bottom">
         <div class="container footer-bottom-block">
@@ -956,6 +949,6 @@
           </nav>
         </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
