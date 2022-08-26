@@ -1,4 +1,4 @@
-.button2 {
+.button {
     display: block;
     background-color: #f16d7f;
     width: 130px;
@@ -10,4 +10,5 @@
     color: #ffffff;
     text-align: center;
     border: 1px solid transparent;
+    transition: background-color 2s, color 2s;
   }
