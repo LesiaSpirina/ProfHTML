@@ -66,74 +66,75 @@
                 </form>
               </div>
             </div>
-            <div class="header-right">
-              <div class="live-cart">
-                <a href="#"
-                  ><img src="img/cart.png" alt="cart" />
-                  <div class="cart-box">
-                    <div class="cart-block">
-                      <div class="cart-item">
-                        <div class="cart-photo">
-                          <a href="product.html"
-                            ><img
-                              class="cart-foto-img"
-                              src="img/greentop.png"
-                              alt="photo"
-                          /></a>
+            <nav>
+              <div class="header-right">
+                <div class="live-cart">
+                  <a href="#"
+                    ><img src="img/cart.png" alt="cart" />
+                    <div class="cart-box">
+                      <div class="cart-block">
+                        <div class="cart-item">
+                          <div class="cart-photo">
+                            <a href="product.html"
+                              ><img
+                                class="cart-foto-img"
+                                src="img/greentop.png"
+                                alt="photo"
+                            /></a>
+                          </div>
+                          <div class="cart-photo-price">
+                            <a href="product.html">
+                              <p class="rebox">Rebox Zane</p>
+                              <div class="star">
+                                <img src="img/star.png" alt="star" />
+                              </div>
+                              <p class="price-cart">1 x $250</p></a
+                            >
+                          </div>
+                          <button type="reset" class="button-reset">
+                            <img src="img/reset.png" alt="reset" />
+                          </button>
                         </div>
-                        <div class="cart-photo-price">
-                          <a href="product.html">
-                            <p class="rebox">Rebox Zane</p>
-                            <div class="star">
-                              <img src="img/star.png" alt="star" />
-                            </div>
-                            <p class="price-cart">1 x $250</p></a
-                          >
+                        <div class="cart-item">
+                          <div class="cart-photo">
+                            <a href="product.html"
+                              ><img src="img/whitetop.png" alt="photo"
+                            /></a>
+                          </div>
+                          <div class="cart-photo-price">
+                            <a href="product.html">
+                              <p class="rebox">Rebox Zane</p>
+                              <div class="star">
+                                <img src="img/star.png" alt="star" />
+                              </div>
+                              <p class="price-cart">1 x $250</p></a
+                            >
+                          </div>
+                          <button type="reset" class="button-reset">
+                            <img src="img/reset.png" alt="reset" />
+                          </button>
                         </div>
-                        <button type="reset" class="button-reset">
-                          <img src="img/reset.png" alt="reset" />
-                        </button>
                       </div>
-                      <div class="cart-item">
-                        <div class="cart-photo">
-                          <a href="product.html"
-                            ><img src="img/whitetop.png" alt="photo"
-                          /></a>
-                        </div>
-                        <div class="cart-photo-price">
-                          <a href="product.html">
-                            <p class="rebox">Rebox Zane</p>
-                            <div class="star">
-                              <img src="img/star.png" alt="star" />
-                            </div>
-                            <p class="price-cart">1 x $250</p></a
-                          >
-                        </div>
-                        <button type="reset" class="button-reset">
-                          <img src="img/reset.png" alt="reset" />
-                        </button>
+                      <div class="total-price">
+                        <p class="total">TOTAL</p>
+                        <p class="total">$500.00</p>
+                      </div>
+                      <div class="button-cart">
+                        <a class="cart-b-color" href="product.html">Checkout</a>
+                      </div>
+                      <div class="button-cart">
+                        <a class="cart-b-color" href="cart.html">Go To Cart</a>
                       </div>
                     </div>
-                    <div class="total-price">
-                      <p class="total">TOTAL</p>
-                      <p class="total">$500.00</p>
-                    </div>
-                    <div class="button-cart">
-                      <a class="cart-b-color" href="product.html">Checkout</a>
-                    </div>
-                    <div class="button-cart">
-                      <a class="cart-b-color" href="cart.html">Go To Cart</a>
-                    </div>
-                  </div>
-                </a>
+                  </a>
+                </div>
+                <div class="header__button">
+                  <a href="registration.html" class="button">My Account</a>
+                </div>
               </div>
-              <div class="header__button">
-                <a href="registration.html" class="button">My Account</a>
-              </div>
-            </div>
+            </nav>
           </div>
         </div>
-
         <nav class="navigation">
           <div class="container">
             <ul class="menu">
@@ -188,14 +189,14 @@
         </div>
       </div>
     </div>
-    <form action="#" class="registration">
-      <div class="container">
-        <div class="address">
-          <details class="orderlist">
-            <summary class="list list1 address__list_heading">
-              SHIPPING ADDRESS
-            </summary>
-            <div class="orderlist-block">
+    <div class="container">
+      <section class="address">
+        <details class="orderlist">
+          <summary class="list list1 address__list_heading">
+            SHIPPING ADDRESS
+          </summary>
+          <div class="orderlist-block">
+            <form action="#" class="registration">
               <div class="register">
                 <fieldset class="checkb">
                   <legend class="checkb_legend">
@@ -243,6 +244,8 @@
                   </button>
                 </fieldset>
               </div>
+            </form>
+            <form action="#" class="log">
               <div class="register">
                 <fieldset class="checkb">
                   <legend class="checkb_legend">Already registed?</legend>
@@ -289,74 +292,73 @@
                   </div>
                 </fieldset>
               </div>
-            </div>
-          </details>
-          <hr class="reg-hr" />
-          <details>
-            <summary class="list list2 address__list_heading">
-              BILLING INFORMATION <span class="pink">(плеер)</span>
-            </summary>
-            <div class="musical">
-              <p>Не переживайте! Это не Rammstein</p>
-              <audio
-                src="music/Yiruma_-_River_Flows_In_You_(musmore.com).mp3"
-                controls
-                autoplay
-              ></audio>
-            </div>
-          </details>
-          <hr class="reg-hr" />
-          <details>
-            <summary class="list list3 address__list_heading">
-              SHIPPING INFORMATION
-              <span class="pink">(эксперимент с кнопками)</span>
-            </summary>
-            <div class="video-but">
-              <a href="#" class="button all-b-1">Эксперимент</a>
+            </form>
+          </div>
+        </details>
+        <hr class="reg-hr" />
+        <details>
+          <summary class="list list2 address__list_heading">
+            BILLING INFORMATION
+          </summary>
+          <div class="musical">
+            <p>Не переживайте! Это не Rammstein</p>
+            <audio
+              src="music/Yiruma_-_River_Flows_In_You_(musmore.com).mp3"
+              controls
+              autoplay
+            ></audio>
+          </div>
+        </details>
+        <hr class="reg-hr" />
+        <details>
+          <summary class="list list3 address__list_heading">
+            SHIPPING INFORMATION
+          </summary>
+          <div class="video-but">
+            <a href="#" class="button all-b-1">Эксперимент</a>
 
-              <a href="#" class="button all-b-2">С</a>
+            <a href="#" class="button all-b-2">С</a>
 
-              <a href="#" class="button all-b-3">Кнопками</a>
-            </div>
-          </details>
-          <hr class="reg-hr" />
-          <details>
-            <summary class="list list4 address__list_heading">
-              SHIPPING METHOD<span class="pink">(эксперимент с кнопками)</span>
-            </summary>
-            <div class="video-but_copy">
-              <button
-                class="buttonBEM registration__buttonBEM buttonBEM_vibrate"
-                type="submit"
-              >
-                <span class="">Log In</span>
-              </button>
-              <button
-                class="buttonBEM registration__buttonBEM buttonBEM_vibrate2"
-                type="submit"
-              >
-                <span class="">Log In</span>
-              </button>
-            </div>
-          </details>
-          <hr class="reg-hr" />
-          <details>
-            <summary class="list list5 address__list_heading">
-              PAYMENT METHOD <span class="pink">(эксперимент с background)</span>
-            </summary>
-            <div class="video-3 buttonBEM_vibrate3"></div>
-          </details>
-          <hr class="reg-hr" />
-          <details>
-            <summary class="list list6 address__list_heading">
-              ORDER REVIEW
-            </summary>
-          </details>
-          <hr class="reg-hr" />
-        </div>
-      </div>
-    </form>
-    <div class="footer">
+            <a href="#" class="button all-b-3">Кнопками</a>
+          </div>
+        </details>
+        <hr class="reg-hr" />
+        <details>
+          <summary class="list list4 address__list_heading">
+            SHIPPING METHOD
+          </summary>
+          <div class="video-but_copy">
+            <button
+              class="buttonBEM registration__buttonBEM buttonBEM_vibrate"
+              type="submit"
+            >
+              <span class="">Log In</span>
+            </button>
+            <button
+              class="buttonBEM registration__buttonBEM buttonBEM_vibrate2"
+              type="submit"
+            >
+              <span class="">Log In</span>
+            </button>
+          </div>
+        </details>
+        <hr class="reg-hr" />
+        <details>
+          <summary class="list list5 address__list_heading">
+            PAYMENT METHOD
+          </summary>
+          <div class="video-3 buttonBEM_vibrate3"></div>
+        </details>
+        <hr class="reg-hr" />
+        <details>
+          <summary class="list list6 address__list_heading">
+            ORDER REVIEW
+          </summary>
+        </details>
+        <hr class="reg-hr" />
+      </section>
+    </div>
+    <footer class="footer">
       <section class="subcribe">
         <div class="figura-banner">
           <div class="container figura-block">
@@ -435,36 +437,34 @@
             </article>
           </div>
         </div>
-        <div class="right-footer">
-          <nav class="footer-info">
-            <ul class="footer-info-link">
-              <li class="footer-link-red">
-                <p class="red-footer-word">COMPANY</p>
-                <a href="#" class="right-footer-link">Home</a>
-                <a href="#" class="right-footer-link">Shop</a>
-                <a href="#" class="right-footer-link">About</a>
-                <a href="#" class="right-footer-link">How It Works</a>
-                <a href="#" class="right-footer-link">Contacts</a>
-              </li>
-              <li class="footer-link-red">
-                <p class="red-footer-word">INFORMATION</p>
-                <a href="#" class="right-footer-link">Tearms & Condition</a>
-                <a href="#" class="right-footer-link">Privacy Policy</a>
-                <a href="#" class="right-footer-link">How to Buy</a>
-                <a href="#" class="right-footer-link">How to Sell</a>
-                <a href="#" class="right-footer-link">Promotion</a>
-              </li>
-              <li class="footer-link-red">
-                <p class="red-footer-word">SHOP CATEGORY</p>
-                <a href="#" class="right-footer-link">Men</a>
-                <a href="#" class="right-footer-link">Women</a>
-                <a href="#" class="right-footer-link">Child</a>
-                <a href="#" class="right-footer-link">Apparel</a>
-                <a href="#" class="right-footer-link">Brows All</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <nav class="right-footer footer-info">
+          <ul class="footer-info__link">
+            <li class="footer-info__link_red">
+              <p class="red-footer-word">COMPANY</p>
+              <a href="#" class="right-footer-link">Home</a>
+              <a href="#" class="right-footer-link">Shop</a>
+              <a href="#" class="right-footer-link">About</a>
+              <a href="#" class="right-footer-link">How It Works</a>
+              <a href="#" class="right-footer-link">Contacts</a>
+            </li>
+            <li class="footer-info__link_red">
+              <p class="red-footer-word">INFORMATION</p>
+              <a href="#" class="right-footer-link">Tearms & Condition</a>
+              <a href="#" class="right-footer-link">Privacy Policy</a>
+              <a href="#" class="right-footer-link">How to Buy</a>
+              <a href="#" class="right-footer-link">How to Sell</a>
+              <a href="#" class="right-footer-link">Promotion</a>
+            </li>
+            <li class="footer-info__link_red">
+              <p class="red-footer-word">SHOP CATEGORY</p>
+              <a href="#" class="right-footer-link">Men</a>
+              <a href="#" class="right-footer-link">Women</a>
+              <a href="#" class="right-footer-link">Child</a>
+              <a href="#" class="right-footer-link">Apparel</a>
+              <a href="#" class="right-footer-link">Brows All</a>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="footer-bottom">
         <div class="container footer-bottom-block">
@@ -490,7 +490,8 @@
           </nav>
         </div>
       </div>
-    </div>
+
+    </footer>
 
   </body>
 </html>
