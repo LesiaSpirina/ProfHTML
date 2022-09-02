@@ -350,6 +350,10 @@ body {
   align-self: center;
 }
 
+.i {
+  display: block;
+}
+
 summary.browse {
   display: block;
   position: relative;
@@ -438,9 +442,14 @@ details {
 }
 
 cart-foto-img {
+  display: block;
   width: 72px;
   height: 85px;
   background-color: #ececec;
+}
+
+.pro {
+  display: block;
 }
 
 .cart-photo-price {
@@ -674,7 +683,7 @@ a:hover .menu-link_color {
 }
 
 .banner-line {
-  height: 98px;
+  height: 116px;
 }
 
 .red-height {
@@ -696,14 +705,11 @@ a:hover .menu-link_color {
 }
 
 .baner-text {
+  display: block;
   font-family: Lato, sans-serif;
-  float: left;
-  margin-top: 224px;
   font-size: 60px;
   line-height: 1.2;
   color: #222222;
-  text-align: left;
-  padding-left: 12px;
 }
 
 .baner-mini-text {
@@ -1122,7 +1128,21 @@ a:hover .box-img {
 
 .figura-girl {
   padding-top: 110px;
+}
+
+.div-fig {
   display: flex;
+}
+
+.fi {
+  margin-left: 23%;
+}
+
+.div-h {
+  float: left;
+  margin-top: 224px;
+  text-align: left;
+  padding-left: 12px;
 }
 
 .figuracontent {
@@ -1938,11 +1958,6 @@ ul.pagination li a:hover:not(.active) {
   text-transform: uppercase;
   color: #4a4a4a;
   cursor: pointer;
-}
-
-.buttonBEM_transform {
-  -webkit-animation: myAnim1 10s linear 1s infinite normal forwards;
-          animation: myAnim1 10s linear 1s infinite normal forwards;
 }
 
 .buttonBEM_vibrate {

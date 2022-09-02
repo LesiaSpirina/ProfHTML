@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -175,6 +176,9 @@
     color: #838383;
     align-self: center;
   }
+  .i {
+    display: block;
+  }
   summary.browse {
     display: block;
     position: relative;
@@ -257,9 +261,13 @@
     display: block;
   }
   cart-foto-img {
+    display: block;
     width: 72px;
     height: 85px;
     background-color: #ececec;
+  }
+  .pro {
+    display: block;
   }
   .cart-photo-price {
     margin-right: 55px;
@@ -453,9 +461,7 @@
     background-repeat: no-repeat;
   }
   .banner-line {
-  
-    height: 98px;
-  
+    height: 116px;
   }
   .red-height {
     width: 12px;
@@ -473,16 +479,12 @@
     letter-spacing: 0.025em;
   }
   .baner-text {
+    display: block;
     font-family: Lato, sans-serif;
-    float: left;
-    margin-top: 224px;
     font-size: 60px;
     line-height: 1.2;
     @extend .fontw900;
-    color: #222222;
-    text-align: left;
-    padding-left: 12px;
-   
+    color: #222222; 
   }
   .baner-mini-text {
     font-size: 40px;
@@ -875,7 +877,18 @@
  
   .figura-girl {
     padding-top: 110px;
+  }
+  .div-fig {
     display: flex;
+  }
+  .fi {
+    margin-left: 23%;
+  }
+  .div-h {
+    float: left;
+    margin-top: 224px;
+    text-align: left;
+    padding-left: 12px;
   }
   .figuracontent {
     margin-left: 28px;
@@ -1595,9 +1608,6 @@ background-color: #222224;
     color: #4a4a4a;
     cursor: pointer;
    
-   }
-   .buttonBEM_transform {
-    animation: myAnim1 10s linear 1s infinite normal forwards;
    }
     .buttonBEM_vibrate {
       background-color: $color;
